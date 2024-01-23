@@ -1,0 +1,92 @@
+/* Add your custom styles here */
+.content {
+    z-index: 1000;
+
+}
+.form-group.row {
+    margin-top: 2%;
+    margin-bottom: 1rem; /* Adjust spacing between form groups */
+    max-width: 150%;
+}
+
+.col-form-label {
+    padding-top: calc(.375rem + 1px); /* Adjust top padding of form labels */
+    padding-bottom: calc(.375rem + 1px); /* Adjust bottom padding of form labels */
+    margin-bottom: 0; /* Remove margin bottom for form labels */
+    max-width: 100%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem; /* Adjust padding for form controls */
+    line-height: 1.5;
+    color: #495057;
+    background-color: #CCDDDF;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .30rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* If you want to adjust the width of the labels for larger screens */
+@media (min-width: 768px) {
+    .col-form-label {
+        width: 150px; /* Adjust the width as needed */
+    }
+}
+
+/* Gaya default untuk tombol */
+.submit {
+    border-radius: 6%;
+    background-color: #98BDC3;
+    transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
+}
+
+/* Efek hover pada tombol */
+.submit:hover {
+    background-color: #75A5AD;
+}
+
+/* Efek active (ditekan) pada tombol */
+.submit:active {
+    background-color: #547C84;
+}
+
+.btn.btn-primary {
+    border-radius: 10px;
+    background-color: #547C84;
+    margin-top: 30px;
+    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan */
+    color: #fff; /* Warna teks menjadi putih */
+    text-decoration: none; /* Hilangkan dekorasi teks */
+    display: inline-block; /* Membuat tombol tampil seperti blok */
+    transition: background-color 0.3s ease; /* Efek transisi untuk smooth hover */
+}
+
+.btn.btn-primary:hover {
+    background-color: #435b63; /* Warna latar belakang saat tombol dihover */
+}
+
+.btn.btn-primary:active {
+    background-color: #2e4248; /* Warna latar belakang saat tombol ditekan */
+}
+
+.btn.btn-delete {
+    border-radius: 10px;
+    background-color: #845454;
+    margin-top: 30px;
+    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan */
+    color: #fff; /* Warna teks menjadi putih */
+    text-decoration: none; /* Hilangkan dekorasi teks */
+    display: inline-block; /* Membuat tombol tampil seperti blok */
+    transition: background-color 0.3s ease; /* Efek transisi untuk smooth hover */
+}
+
+.btn.btn-delete:hover {
+    background-color: #634343; /* Warna latar belakang saat tombol dihover */
+}
+
+.btn.btn-delete:active {
+    background-color: #482e2e; /* Warna latar belakang saat tombol ditekan */
+}

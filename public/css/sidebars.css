@@ -1,0 +1,119 @@
+/* Add your custom styles here */
+body {
+    padding-top: 10px; /* Adjusted to accommodate fixed navbar */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px; /* Height of the fixed navbar */
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    background-color: #98BDC3;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 56px); /* Adjusted to accommodate fixed navbar */
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    color: #CCDDDF;
+}
+
+.sidebar .nav-link:hover {
+    color: #CCDDDF;
+}
+
+.main-content {
+    margin-top: 0px; /* Height of the fixed navbar */
+}
+
+img {
+    max-width: 80%; /* Maksimum lebar logo adalah 100% dari parent element */
+    height: auto; /* Menjaga aspek rasio logo */
+    display: block; /* Menjaga batas-batas inline */
+    margin-bottom: 20px; /* Jarak antara logo dan menu sidebar */
+    margin-left: 9.6%;
+}
+
+.nav-item {
+    margin-top: 8%;
+}
+
+
+/* Add your custom styles here */
+.navbar {
+    background-color: #CCDDDF; /* Background color of the navbar */
+    padding-top: 1.5rem;
+    margin-top: 0px;
+    border-radius: 15px;
+    margin-right: 5px;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: #CCDDDF; /* Color of the navbar toggler icon */
+}
+
+.navbar-toggler {
+    border-color: #CCDDDF; /* Border color of the navbar toggler button */
+}
+
+.navbar-link {
+    padding: 0.5rem 0rem; 
+    
+   
+}
+
+.navbar-item {
+    list-style-type: none; /* Remove bullet points for list items */
+    margin-right: 0px; /* Adjust spacing between navbar items */
+}
+
+.navbar-item img {
+    max-width: 50px; /* Maximum width for the profile icon */
+    height: auto; /* Maintain aspect ratio of the icon */
+}
+
+/* If you want to add some space between the icon and the navbar edge */
+.navbar-nav.ml-auto {
+    margin-right: 10px;
+}
+
+.content{
+    margin-top: 10%;
+}
+
+.logout {
+    margin-bottom: 2%;
+    margin-top: 20%;
+    margin-left: 2.5%;
+}
+
+.sidebar .logout {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .logout.active {
+    color: #CCDDDF;
+}
+
+.sidebar .logout:hover {
+    color: #CCDDDF;
+}

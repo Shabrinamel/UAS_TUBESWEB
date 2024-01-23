@@ -1,0 +1,44 @@
+/* Add your custom styles here */
+
+.content {
+    z-index: 1000;
+
+}
+
+/* .container {
+    margin-top: 20px;
+    
+} */
+
+/* Additional Styles for Buttons */
+.btn-secondary {
+    background-color: #FFFFFF;
+    border-color: black;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-primary {
+    background-color: #217E00;
+    border-color: #217E00;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary1 {
+    background-color: #FFFFFF;
+    border-color: black
+}    
+
+.btn-primary1:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+

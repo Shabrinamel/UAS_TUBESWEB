@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../assets/Login.png'); /* Sesuaikan path dengan struktur folder Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Menetapkan tinggi elemen body sesuai dengan tinggi viewport */
+    margin: 0; /* Menghapus margin default */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin-right: 9.6%;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    max-width: 400px; /* Membatasi lebar container */
+}
+
+.title {
+    text-align: center;
+    color: #060606;
+    font-size: 40px;
+    margin-bottom: 30%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #46C01C; /* Warna hijau */
+    border-color: #46C01C; /* Warna border sesuai dengan latar belakang */
+}
+
+.btn-google {
+    width: 100%;
+    background-color: #eff3ee; /* Warna biru Google */
+    color: rgb(13, 13, 13);
+    border: 1px solid #eff3ee;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.sign-in-with-google {
+    margin-top: 20px;
+}
+
+.additional-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sign-up-link,
+.forgot-password-link {
+    color: #565E65;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-decoration: none;
+}
